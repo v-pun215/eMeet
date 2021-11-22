@@ -1,9 +1,9 @@
 .bar {
-  background-color:#e6ffff;
+  background-color:#f2f2f2;
   float:left;
   height:500px;
   width:150px;
-  border: 5px solid #ccffff;
+  border: 5px solid #d9d9d9;
 }
 html {
     background: #fafafa;
