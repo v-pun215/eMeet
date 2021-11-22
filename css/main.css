@@ -24,6 +24,7 @@ html {
 .home {
   border-radius:17px;
   padding:10px;
+  float:right;
   background-color:#f2f2f2;
   height: 93vh;
   width:60%;
