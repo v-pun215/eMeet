@@ -18,20 +18,29 @@
     <div class=home id=home >
       <center>
         <script>
-          function formatAMPM(date) {
-  var hours = date.getHours();
-  var minutes = date.getMinutes();
-  var ampm = hours >= 12 ? 'pm' : 'am';
-  hours = hours % 12;
-  hours = hours ? hours : 12; // the hour '0' should be '12'
-  minutes = minutes < 10 ? '0'+minutes : minutes;
-  var strTime = hours + ':' + minutes + ' ' + ampm;
-  return strTime;
-}
+          timer();
 
-console.log(formatAMPM(new Date));
-          
+function timer(){
+ var currentTime = new Date()
+var hours = currentTime.getHours()
+var minutes = currentTime.getMinutes()
+var sec = currentTime.getSeconds()
+if (minutes < 10){
+    minutes = "0" + minutes
+}
+if (sec < 10){
+    sec = "0" + sec
+}
+var t_str = hours + ":" + minutes + ":" + sec + " ";
+if(hours > 11){
+    t_str += "PM";
+} else {
+   t_str += "AM";
+}
+ document.getElementById('time_span').innerHTML = t_str;
+ setTimeout(timer,1000);
+}
         </script>
-        <h1 id="date"></h1>
+        <span style="font-size:20px;font-weight:bold;" id="time_span"></span>
       </center>
     </div>
