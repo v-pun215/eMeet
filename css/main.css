@@ -1,1 +1,7 @@
-
+.bar {
+  background-color:#e6ffff;
+  float:left;
+  height:500px;
+  width:150px;
+  padding:10px;
+  border: 5px solid #ccffff;
