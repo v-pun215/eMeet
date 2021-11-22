@@ -17,6 +17,20 @@
     </div>
     <div class=home id=home >
       <center>
-        <h1>HI</h1>
+        <script>
+          function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
+document.getElementById("date")[0].innerHTML= formatAMPM(new Date);
+console.log(formatAMPM(new Date));
+        </script>
+        <h1 id="date"></h1>
       </center>
     </div>
