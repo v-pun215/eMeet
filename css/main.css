@@ -12,6 +12,12 @@ html {
     font-family:  Roboto, sans-serif;
 }
 
-.home {
-  margin-top:200px;
+.material-icons {
+  border-radius:5px;
+}
+.material-icons:hover {
+  background-color:white;
+}
+.logo:hover {
+  background-color:white;
 }
