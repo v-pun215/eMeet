@@ -21,3 +21,11 @@ html {
 .logo:hover {
   background-color:white;
 }
+.home {
+  border-radius:17px;
+  padding:10px;
+  background-color:#f2f2f2;
+  height: 93vh;
+  width:60%;
+  border: 5px solid #d9d9d9;
+}
