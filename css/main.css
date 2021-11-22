@@ -1,4 +1,6 @@
 .bar {
+  border-radius:17px;
+  padding:10px;
   background-color:#f2f2f2;
   float:left;
   height:500px;
