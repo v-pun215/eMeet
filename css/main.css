@@ -32,6 +32,7 @@ html {
   border-radius:5px;
 }
 .bics:hover {
+  border:2px solid black;
   color:white;
 }
 .logo:hover {
