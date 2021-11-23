@@ -25,10 +25,12 @@ html {
   height:200px;
   background-color:white;
 }
-.material-icons {
+.bics {
+  width:8px;
+  height:9px;
   border-radius:5px;
 }
-.material-icons:hover {
+.bics:hover {
   background-color:white;
 }
 .logo:hover {
