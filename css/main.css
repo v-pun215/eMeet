@@ -26,12 +26,13 @@ html {
   background-color:white;
 }
 .bics {
+  color:dodgerblue;
   width:30px;
   height:25px;
   border-radius:5px;
 }
 .bics:hover {
-  background-color:white;
+  color:white;
 }
 .logo:hover {
   background-color:white;
