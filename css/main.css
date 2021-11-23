@@ -28,15 +28,17 @@ html {
 .mn {
   color:dodgerblue;
   float:left;
-  margin-left:50px;
+  margin-top:200px;
+  margin-left:200px;
 }
 .mn:hover {
   color:orange;
 }
 .mns {
+  margin-top:200px;
   color:dodgerblue;
   float:left;
-  margin-left:10px;
+  margin-left:100px;
 }
 .mns:hover {
   color:orange;
