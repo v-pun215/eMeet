@@ -26,8 +26,8 @@ html {
   background-color:white;
 }
 .bics {
-  width:8px;
-  height:9px;
+  width:15px;
+  height:15px;
   border-radius:5px;
 }
 .bics:hover {
