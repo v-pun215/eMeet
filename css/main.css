@@ -27,9 +27,9 @@ html {
 }
 .bics {
   color:dodgerblue;
+  height:40px;
 }
 .bics:hover {
-  border:2px solid black;
   color:white;
 }
 .logo:hover {
