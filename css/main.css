@@ -17,7 +17,14 @@ html {
     background: #fafafa;
     font-family:  Roboto, sans-serif;
 }
-
+.buts {
+  float:left;
+  margin-left:100px;
+  margin-top:100px;
+  width:40%;
+  height:400px;
+  background-color:white;
+}
 .material-icons {
   border-radius:5px;
 }
