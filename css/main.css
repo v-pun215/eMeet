@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Nums;
+  src: url(digital-7.ttf);
+}
 #feedControl {
   margin-top : 20px;
   margin-left: auto;
