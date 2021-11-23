@@ -25,6 +25,22 @@ html {
   height:200px;
   background-color:white;
 }
+.mn {
+  color:dodgerblue;
+  float:left;
+  margin-left:50px;
+}
+.mn:hover {
+  color:orange;
+}
+.mns {
+  color:dodgerblue;
+  float:left;
+  margin-left:10px;
+}
+.mns:hover {
+  color:orange;
+}
 .bics {
   color:dodgerblue;
   height:40px;
