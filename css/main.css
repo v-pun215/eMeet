@@ -30,3 +30,6 @@ html {
   width:85.5%;
   border: 5px solid #d9d9d9;
 }
+span{
+cursor:url("/img/windows-cursor-vector.png") ,default;
+}
