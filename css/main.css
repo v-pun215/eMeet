@@ -67,6 +67,7 @@ html {
   border: 5px solid #d9d9d9;
 }
 .meet {
+  display:none;
   border-radius:17px;
   padding:10px;
   float:right;
