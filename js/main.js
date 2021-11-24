@@ -6,3 +6,4 @@ function mt() {
   document.getElementById("home").style.display = "none";
   document.getElementById("meet").style.display = "block";
 }
+window.onload = hm();
