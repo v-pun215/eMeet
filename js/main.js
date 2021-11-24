@@ -1,4 +1,4 @@
-window.onload = function() {
+body.onload = function() {
   document.getElementById("home").style.display = "block";
   document.getElementById("meet").style.display = "none";
 }
