@@ -1,4 +1,7 @@
-window.onload = hm();
+window.onload = hm() {
+  document.getElementById("home").style.display = "block";
+  document.getElementById("meet").style.display = "none";
+}
 
 function hm() {
   document.getElementById("home").style.display = "block";
