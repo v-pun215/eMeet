@@ -57,6 +57,16 @@ html {
   background-color:white;
 }
 .home {
+  display:none;
+  border-radius:17px;
+  padding:10px;
+  float:right;
+  background-color:#f2f2f2;
+  height: 93vh;
+  width:85.5%;
+  border: 5px solid #d9d9d9;
+}
+.meet {
   border-radius:17px;
   padding:10px;
   float:right;
